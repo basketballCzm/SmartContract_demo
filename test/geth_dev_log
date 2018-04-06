@@ -1,0 +1,30 @@
+-bash: geth: command not found
+-bash: geth: command not found
+-bash: geth: command not found
+-bash: geth: command not found
+-bash: geth: command not found
+INFO [04-05|23:00:29] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [04-05|23:00:33] Using developer account                  address=0x5d04c60481B0C23966ff9ec901cb8051412c0Be9
+INFO [04-05|23:00:33] Starting peer-to-peer node               instance=Geth/v1.8.4-unstable-50dbe8e2/linux-amd64/go1.9
+INFO [04-05|23:00:33] Writing custom genesis block 
+INFO [04-05|23:00:33] Persisted trie from memory database      nodes=12 size=2.26kB time=22.568µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [04-05|23:00:33] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: clique}"
+INFO [04-05|23:00:33] Initialising Ethereum protocol           versions="[63 62]" network=1
+INFO [04-05|23:00:33] Loaded most recent local header          number=0 hash=ff49bb…e7a5ae td=1
+INFO [04-05|23:00:33] Loaded most recent local full block      number=0 hash=ff49bb…e7a5ae td=1
+INFO [04-05|23:00:33] Loaded most recent local fast block      number=0 hash=ff49bb…e7a5ae td=1
+INFO [04-05|23:00:33] Starting P2P networking 
+INFO [04-05|23:00:33] started whisper v.6.0 
+INFO [04-05|23:00:33] Transaction pool price threshold updated price=18000000000
+INFO [04-05|23:00:33] Etherbase automatically configured       address=0x5d04c60481B0C23966ff9ec901cb8051412c0Be9
+INFO [04-05|23:00:33] RLPx listener up                         self="enode://1bf44f2606f9ba3a8c666995e218b316026fa0d3090c2d616e3ae589ac9b77b351e375bfb1e4798e2925720c01926979d87abe2416c68e31a201db1ed1d7124c@[::]:52093?discport=0"
+INFO [04-05|23:00:33] IPC endpoint opened                      url=/tmp/geth.ipc
+INFO [04-05|23:00:33] Starting mining operation 
+INFO [04-05|23:00:33] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=60.687µs
+WARN [04-05|23:00:33] Block sealing failed                     err="waiting for transactions"
+INFO [04-05|23:01:32] IPC endpoint closed                      endpoint=/tmp/geth.ipc
+INFO [04-05|23:01:32] whisper stopped 
+INFO [04-05|23:01:32] Blockchain manager stopped 
+INFO [04-05|23:01:32] Stopping Ethereum protocol 
+INFO [04-05|23:01:32] Ethereum protocol stopped 
+INFO [04-05|23:01:32] Transaction pool stopped 
