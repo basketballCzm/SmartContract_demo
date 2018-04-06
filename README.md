@@ -3,6 +3,9 @@
 
 ## 计划任务-关于区块链智能协议的小demo
 * Linux下开发环境的搭建（暂时遇到一些问题，首先使用remix浏览器进行学习，后续完成linux下环境的搭建）
+------------------------
+* linux 下ethereum安装完成，solidity编译器也安装完成，但是碰到不能再geth console下面使用solc编译智能合约。原因是版本将web3.eth.getCompilers().solidity(src);中的getCompilers方法被去除，可以的解决方法。。。。？
+
 * 关于区块链智能协议的一些概念
 * 区块链智能合约的demo编写以及运行
 
