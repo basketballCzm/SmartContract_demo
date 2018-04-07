@@ -1,0 +1,11 @@
+eth
+eth.accounts
+loadScript("smartSponsor.js")
+smart
+ss
+ss.owner
+miner.start(1)
+miner.stop()
+ss.owner
+ss.owner.call()
+ss.owner

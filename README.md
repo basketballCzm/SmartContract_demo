@@ -4,14 +4,19 @@
 ## 计划任务-关于区块链智能协议的小demo
 * Linux下开发环境的搭建（暂时遇到一些问题，首先使用remix浏览器进行学习，后续完成linux下环境的搭建）
 ------------------------
-* linux 下ethereum安装完成，solidity编译器也安装完成，但是碰到不能再geth console下面使用solc编译智能合约。原因是版本将web3.eth.getCompilers().solidity(src);中的getCompilers方法被去除，可以的解决方法。。。。？
+* linux下ethereum安装完成，solidity编译器也安装完成，但是碰到不能再geth console下面使用solc编译智能合约。原因是版本将web3.eth.getCompilers().solidity(src);中的getCompilers方法被去除，可以的解决方法。。。。？直接用solc编译器将.abi和bin文件中的值直接编译出来然后新建一个.js文件填入到相应的地方,这是我的解决办法。
+阿里云地址：120.79.128.233:22  密码：czm13797282623CZM   目录：SmartContarct_demo
+
+* eth.sendTransaction({from:acc0,to:acc1,value: web3.toWei(1)}) 如果当前不处于挖矿中，上面执行后，也会返回一个值，但是你如果去查看两个账号的各自余额，发现是没有任何变化的。所以一定一定要记得：挖矿中进行交易
 
 * 关于区块链智能协议的一些概念
 * 区块链智能合约的demo编写以及运行
 
 ## 说明文档
 * 郭燕老师好，这是我看了官网上的教程写的一个小demo，程序能够在在线运行环境中跑起来，然后我不知道您要我写的demo要写到什么程度，您看了代码可以另外提一些编写要求，我会再按照这些要求继续往下写。新建一个issues。期待您的指导。
+* 智能合约.sol文件编译后生成.abi和.bin。.abi文件是合约的接口，然后bin文件是编译后的代码。对于bin文件要注意的两件事是.bin文件必须是从未解锁的账户和代码必须是以0x开头。
 * 这是一个简单的代币合约，提供2个功能1.创建代币：发起合约时创造指定数量的代币，代币拥有者是发起合约的Ethereum账户。2.转移代币：转移指定数量的代币到Ethereum账户。
+* ether的最好单位是Wei，Wei是不可分割的，eth.getBalance(usr)取出的是Wei可以使用fromWei和toWei进行转换。web3.fromWei("123499999999999999800","ether")； web3.toWei("100")
 * 在线运行环境：https://remix.ethereum.org
 
 ## 阅读笔记
