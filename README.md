@@ -2,10 +2,10 @@
 这是一个关于区块链智能合约的demo
 
 ## 计划任务-关于区块链智能协议的小demo
-* Linux下开发环境的搭建（暂时遇到一些问题，首先使用remix浏览器进行学习，后续完成linux下环境的搭建）
+* Linux下开发环境的搭建（完成linux下环境的搭建，碰到的问题后续总结.后面可以写一个dockerfile将solidity编译器和以太坊打包成一个image）
 ------------------------
 * linux下ethereum安装完成，solidity编译器也安装完成，但是碰到不能再geth console下面使用solc编译智能合约。原因是版本将web3.eth.getCompilers().solidity(src);中的getCompilers方法被去除，可以的解决方法。。。。？直接用solc编译器将.abi和bin文件中的值直接编译出来然后新建一个.js文件填入到相应的地方,这是我的解决办法。
-阿里云地址：120.79.128.233:22  密码：czm13797282623CZM   目录：SmartContarct_demo
+阿里云地址：120.79.128.233:22  密码：czm13797282623CZM   目录：/root/czm
 
 * eth.sendTransaction({from:acc0,to:acc1,value: web3.toWei(1)}) 如果当前不处于挖矿中，上面执行后，也会返回一个值，但是你如果去查看两个账号的各自余额，发现是没有任何变化的。所以一定一定要记得：挖矿中进行交易
 
